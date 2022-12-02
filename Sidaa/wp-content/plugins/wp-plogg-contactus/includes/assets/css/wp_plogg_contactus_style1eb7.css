@@ -1,0 +1,102 @@
+
+.wp_plogg_contactus_magicfield{
+	position: absolute;
+	left: -9999999px;
+}
+.wp-plogg-contactus-form-field-wrapper{
+	position: relative;
+}
+.wp-plogg-contactus-form-field-wrapper .wp-plogg-contactus-form-label{
+    position: absolute;
+	font-size: 1em;
+	top: 1.1em;
+	left: 0;
+    line-height: normal;
+    padding-left: 1em;
+    padding-top: 0;
+    color: #A9A9A9;
+    cursor: pointer;
+    z-index: 5;
+    -webkit-transition: all 0.1s ease-out;
+    transition: all 0.1s ease-out;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.wp-plogg-contactus-form-field-wrapper input[type="text"]:focus+.wp-plogg-contactus-form-label,
+.wp-plogg-contactus-form-field-wrapper input[type="text"].notempty+.wp-plogg-contactus-form-label,
+.wp-plogg-contactus-form-field-wrapper input[type="email"].notempty+.wp-plogg-contactus-form-label,
+.wp-plogg-contactus-form-field-wrapper input[type="email"]:focus+.wp-plogg-contactus-form-label,
+.wp-plogg-contactus-form-field-wrapper input[type="tel"].notempty+.wp-plogg-contactus-form-label,
+.wp-plogg-contactus-form-field-wrapper input[type="tel"]:focus+.wp-plogg-contactus-form-label,
+.wp-plogg-contactus-form-field-wrapper textarea.notempty+.wp-plogg-contactus-form-label,
+.wp-plogg-contactus-form-field-wrapper textarea:focus+.wp-plogg-contactus-form-label {
+    font-size: 0.75em;
+    top: 0.3em;
+    padding-left: 1.25em;
+    -webkit-transition: all 0.1s ease-out;
+    transition: all 0.1s ease-out;
+}
+.wp-plogg-contactus-form-field-wrapper input[type="text"],
+.wp-plogg-contactus-form-field-wrapper input[type="email"],
+.wp-plogg-contactus-form-field-wrapper input[type="tel"],
+.wp-plogg-contactus-form-field-wrapper textarea{
+    padding-bottom: 0.5em;
+    padding-top: 1.5em;
+}
+
+.wp-plogg-contactus-combobox{
+    padding-bottom: 1.5em;
+}
+
+.wp-plogg-contactus-form-field-wrapper textarea.notempty+.wp-plogg-contactus-form-label::after,
+.wp-plogg-contactus-form-field-wrapper textarea.notempty+.wp-plogg-contactus-form-label::after {
+    content: '';
+    right: 1px;
+    position: absolute;
+    background: #Fff;
+    height: 2em;
+    top: -.33em;
+    left: 1px;
+    z-index: -1;
+    border-top: 1px solid #ccc;
+}
+
+#wp-plogg-contactus-div .notification{
+	position: fixed;
+	top: 0%;
+	height: 100%;
+	padding: 2em 0 2em 0;
+	font-size: 2em;
+	left: 0;
+	right: 0;
+	background: rgba(255, 255, 255, 1);
+	z-index: 99999999;
+	text-align: center;
+    display: block;
+	animation: fadeout 4s;
+	-moz-animation: fadeout 4s;
+	-webkit-animation: fadeout 4s;
+	-o-animation: fadeout 4s;
+	animation-delay: 4s;
+	-moz-animation-delay: 4s;
+	-webkit-animation-delay: 4s;
+	-o-animation-delay: 4s;
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	line-height: normal;
+}
+#wp-plogg-contactus-div .notification .alert-box{
+	position: absolute;
+	top:50%;
+	margin-top: -200px;
+	width: 100%;
+	text-align: center;
+	left: 0;
+	padding-left:1em;
+	padding-right: 1em;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}

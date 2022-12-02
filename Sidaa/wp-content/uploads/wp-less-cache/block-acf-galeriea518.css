@@ -1,0 +1,1 @@
+.gallery{display:flex;}.gallery_item{flex:1;position:relative;}.gallery_item:after{content:"";display:block;padding-bottom:100%;}.gallery_item img{position:absolute;width:100%;height:100%;object-fit:cover;}.gallery_item figcaption{position:absolute;}

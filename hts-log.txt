@@ -1,0 +1,48 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 24 Oct 2022 00:36:02 at https://www.cliniquedentairecouture.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.cliniquedentairecouture.com/ -O1 "C:\Users\moham\Desktop\Workspace\ChezChaima\dentisteCanada2" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+00:36:16	Error: 	"Method Not Allowed" (405) at link https://www.cliniquedentairecouture.com/xmlrpc.php (from https://www.cliniquedentairecouture.com/)
+00:37:10	Warning: 	Moved Permanently for https://www.cliniquedentairecouture.com/?p=12
+00:37:10	Warning: 	File has moved from https://www.cliniquedentairecouture.com/?p=12 to https://www.cliniquedentairecouture.com/rendez-vous/
+00:37:10	Error: 	"Bad Request" (400) at link https://www.cliniquedentairecouture.com/wp-admin/admin-ajax.php (from https://www.cliniquedentairecouture.com/rendez-vous/)
+00:37:10	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.cliniquedentairecouture.com/wp-content/uploads/wp-less-cache/rendez-vous-less.css?ver=1666389228 (from https://www.cliniquedentairecouture.com/rendez-vous/)
+00:37:16	Warning: 	Moved Permanently for https://www.cliniquedentairecouture.com/?p=30
+00:37:16	Warning: 	File has moved from https://www.cliniquedentairecouture.com/?p=30 to https://www.cliniquedentairecouture.com/urgence-dentaire/
+00:37:16	Warning: 	Moved Permanently for https://www.cliniquedentairecouture.com/?p=8
+00:37:16	Warning: 	File has moved from https://www.cliniquedentairecouture.com/?p=8 to https://www.cliniquedentairecouture.com/visiter-la-clinique/
+00:37:16	Warning: 	Moved Permanently for https://www.cliniquedentairecouture.com/?p=210
+00:37:16	Warning: 	File has moved from https://www.cliniquedentairecouture.com/?p=210 to https://www.cliniquedentairecouture.com/couronne-et-pont/
+00:37:16	Warning: 	Moved Permanently for https://www.cliniquedentairecouture.com/?p=212
+00:37:16	Warning: 	File has moved from https://www.cliniquedentairecouture.com/?p=212 to https://www.cliniquedentairecouture.com/cerec-3d/
+00:37:16	Warning: 	Moved Permanently for https://www.cliniquedentairecouture.com/?p=214
+00:37:16	Warning: 	File has moved from https://www.cliniquedentairecouture.com/?p=214 to https://www.cliniquedentairecouture.com/prothese/
+00:37:16	Warning: 	Moved Permanently for https://www.cliniquedentairecouture.com/?p=216
+00:37:16	Warning: 	File has moved from https://www.cliniquedentairecouture.com/?p=216 to https://www.cliniquedentairecouture.com/blanchiment-des-dents/
+00:37:16	Warning: 	Moved Permanently for https://www.cliniquedentairecouture.com/?p=218
+00:37:16	Warning: 	File has moved from https://www.cliniquedentairecouture.com/?p=218 to https://www.cliniquedentairecouture.com/traitement-des-gencives/
+00:37:16	Warning: 	Moved Permanently for https://www.cliniquedentairecouture.com/?p=220
+00:37:16	Warning: 	File has moved from https://www.cliniquedentairecouture.com/?p=220 to https://www.cliniquedentairecouture.com/rehabilitation-complete-et-cosmetique/
+00:37:16	Warning: 	Moved Permanently for https://www.cliniquedentairecouture.com/?p=286
+00:37:16	Warning: 	File has moved from https://www.cliniquedentairecouture.com/?p=286 to https://www.cliniquedentairecouture.com/seri-traces/
+00:37:16	Warning: 	Moved Permanently for https://www.cliniquedentairecouture.com/?p=276
+00:37:16	Warning: 	File has moved from https://www.cliniquedentairecouture.com/?p=276 to https://www.cliniquedentairecouture.com/3-shape/
+00:37:16	Warning: 	Moved Permanently for https://www.cliniquedentairecouture.com/?p=279
+00:37:16	Warning: 	File has moved from https://www.cliniquedentairecouture.com/?p=279 to https://www.cliniquedentairecouture.com/leve-personne/
+00:37:16	Warning: 	Moved Permanently for https://www.cliniquedentairecouture.com/?p=14
+00:37:16	Warning: 	File has moved from https://www.cliniquedentairecouture.com/?p=14 to https://www.cliniquedentairecouture.com/realisations/
+00:37:16	Warning: 	Moved Permanently for https://www.cliniquedentairecouture.com/?p=26
+00:37:16	Warning: 	File has moved from https://www.cliniquedentairecouture.com/?p=26 to https://www.cliniquedentairecouture.com/info-patients/
+00:37:16	Warning: 	Moved Permanently for https://www.cliniquedentairecouture.com/?p=10
+00:37:16	Warning: 	File has moved from https://www.cliniquedentairecouture.com/?p=10 to https://www.cliniquedentairecouture.com/nous-joindre/
+00:37:16	Warning: 	Moved Permanently for https://www.cliniquedentairecouture.com/?p=3
+00:37:16	Warning: 	File has moved from https://www.cliniquedentairecouture.com/?p=3 to https://www.cliniquedentairecouture.com/politique-de-confidentialite/
+00:37:17	Warning: 	Moved Permanently for https://www.cliniquedentairecouture.com/?p=243
+00:37:17	Warning: 	File has moved from https://www.cliniquedentairecouture.com/?p=243 to https://www.cliniquedentairecouture.com/equipe/dr-pierre-couture/
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 15 seconds : 165 links scanned, 143 files written (6782165 bytes overall) [6171901 bytes received at 82292 bytes/sec], 1030371 bytes transferred using HTTP compression in 28 files, ratio 33%, 4.2 requests per connection
+(2 errors, 35 warnings, 0 messages)

@@ -1,0 +1,331 @@
+/* ======================================================================*/
+/* page-demandez-rendez-vous */
+/* ======================================================================*/
+@font-face {
+  font-family: 'ahpr_fontello';
+  src: url('../fonts/fontello80db.eot?36650886');
+  src: url('../fonts/fontello80db.eot?36650886#iefix') format('embedded-opentype'),
+       url('../fonts/fontello80db.woff?36650886') format('woff'),
+       url('../fonts/fontello80db.ttf?36650886') format('truetype'),
+       url('../fonts/fontello80db.svg?36650886#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon-calendar:before { content: '\e800'; } /* '' */
+
+.space-below {
+	margin-bottom: 30px;
+}
+.space-above {
+	margin-top: 30px;
+}
+.no-space-above {
+	margin-top: 0;
+}
+.no-space-below {
+	margin-bottom: 0;
+}
+.space-left {
+	margin-left: 30px;
+}
+.display-inline {
+	display: inline-block;
+}
+.small-space-below {
+	margin-bottom: 15px;
+}
+.small-space-above {
+	margin-top: 15px;
+}
+.hidden {
+	display: none;
+}
+
+#ahpr-rdv-div{
+	margin: 2em 0;
+	overflow: hidden;
+}
+#ahpr-rdv-div .top-wrapper{
+	width: 45%;
+	margin: 0 auto;
+	text-align: center;
+}
+#ahpr-rdv-div .col-wrapper, .cols-wrapper {
+	overflow: hidden;
+	width:100%;
+}
+#ahpr-rdv-div .form-wrapper .label-title{
+	display: block;
+	font-size: 1.2em;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+#ahpr-rdv-div .form-wrapper .question-wrapper{
+	margin-bottom: 2em;
+}
+#ahpr-rdv-div .first-col{
+}
+.col-left {
+	float: left;
+	width: 49%;
+}
+.col-left.no-photo {
+	width: 100%;
+}
+.col-right {
+	float: right;
+	width: 49%;
+}
+#ahpr-rdv-div .button-wrapper {
+	margin-top: 2em;
+	margin-bottom: 3em;
+	text-align: center;
+}
+#ahpr-rdv-div .col-left  p{
+	margin-top: 0px;
+
+}
+#ahpr-rdv-div .button-wrapper button {
+	cursor:pointer;
+}
+#ahpr-rdv-div #ville {
+	width:60%;
+	float:left;
+}
+#ahpr-rdv-div #code_postal {
+	width: 38%;
+	float: right;
+
+}
+#ahpr-rdv-div #tel_domicile {
+	width: 49%;
+	float: left;
+
+}
+#ahpr-rdv-div #poste{
+	width: 49%;
+	float: right;
+
+}
+#ahpr-rdv-div #tel_cellulaire  {
+	width: 49%;
+	float: right;
+
+}
+#ahpr-rdv-div #tel_travail  {
+	width: 49%;
+	float: left;
+
+}
+#ahpr-rdv-div textarea{
+	height: 97px;
+}
+#ahpr-rdv-div .ahpr_magicfield{
+	position: absolute;
+	left: -9999999px;
+}
+#ahpr-rdv-div .popnotification{
+	position: fixed;
+	top: 0%;
+	height: 100%;
+	padding: 2em 0 2em 0;
+	font-size: 2em;
+	left: 0;
+	right: 0;
+	background: rgba(255, 255, 255, 1);
+	z-index: 99999999;
+	text-align: center;
+    display: block;
+	animation: fadeout 4s;
+	-moz-animation: fadeout 4s;
+	-webkit-animation: fadeout 4s;
+	-o-animation: fadeout 4s;
+	animation-delay: 4s;
+	-moz-animation-delay: 4s;
+	-webkit-animation-delay: 4s;
+	-o-animation-delay: 4s;
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+}
+#ahpr-rdv-div .popnotification .alert-box{
+	position: absolute;
+	top:50%;
+	margin-top: -200px;
+	width: 100%;
+	text-align: center;
+	left: 0;
+	padding-left:1em;
+	padding-right: 1em;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+#ahpr-rdv-div .custom-combobox{
+	margin-bottom: 2em;
+}
+
+.ahpr-important{
+	margin-bottom: 0;
+	color:red;
+}
+
+#ahpr-rdv-div .form-wrapper #ahpr_date_rdv{
+	max-width: 170px;
+}
+#ahpr-rdv-div .form-wrapper .date-field-wrapper::after{
+	content: '\e800';
+	font-family: 'ahpr_fontello';
+	font-size: 1.8em;
+	margin-left: -42px;
+	vertical-align: middle;
+	margin-top: -5px;
+	display: inline-block;
+}
+
+
+
+
+#ahpr-rdv-div .ahpr-rdv-form-field-wrapper{
+	position: relative;
+}
+#ahpr-rdv-div .ahpr-rdv-form-field-wrapper .ahpr-rdv-form-label{
+    position: absolute;
+	font-size: 1em;
+	top: 1.1em;
+	left: 0;
+    line-height: normal;
+    padding-left: 1em;
+    padding-top: 0;
+    color: #A9A9A9;
+    cursor: pointer;
+    z-index: 0;
+    -webkit-transition: all 0.1s ease-out;
+    transition: all 0.1s ease-out;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+#ahpr-rdv-div .ahpr-rdv-form-field-wrapper input[type="text"]:focus+.ahpr-rdv-form-label,
+#ahpr-rdv-div .ahpr-rdv-form-field-wrapper input[type="text"].notempty+.ahpr-rdv-form-label,
+#ahpr-rdv-div .ahpr-rdv-form-field-wrapper input[type="email"].notempty+.ahpr-rdv-form-label,
+#ahpr-rdv-div .ahpr-rdv-form-field-wrapper input[type="email"]:focus+.ahpr-rdv-form-label,
+#ahpr-rdv-div .ahpr-rdv-form-field-wrapper input[type="tel"].notempty+.ahpr-rdv-form-label,
+#ahpr-rdv-div .ahpr-rdv-form-field-wrapper input[type="tel"]:focus+.ahpr-rdv-form-label,
+#ahpr-rdv-div .ahpr-rdv-form-field-wrapper input[type="password"].notempty+.ahpr-rdv-form-label,
+#ahpr-rdv-div .ahpr-rdv-form-field-wrapper input[type="password"]:focus+.ahpr-rdv-form-label,
+#ahpr-rdv-div .ahpr-rdv-form-field-wrapper textarea.notempty+.ahpr-rdv-form-label,
+#ahpr-rdv-div .ahpr-rdv-form-field-wrapper textarea:focus+.ahpr-rdv-form-label {
+    font-size: 0.75em;
+    top: 0.3em;
+    padding-left: 1.25em;
+    -webkit-transition: all 0.1s ease-out;
+    transition: all 0.1s ease-out;
+}
+#ahpr-rdv-div .ahpr-rdv-form-field-wrapper input[type="text"],
+#ahpr-rdv-div .ahpr-rdv-form-field-wrapper input[type="email"],
+#ahpr-rdv-div .ahpr-rdv-form-field-wrapper input[type="tel"],
+#ahpr-rdv-div .ahpr-rdv-form-field-wrapper textarea{
+    padding-bottom: 0.5em;
+    padding-top: 1.5em;
+}
+
+#ahpr-rdv-div .ahpr-rdv-form-field-wrapper textarea.notempty+.ahpr-rdv-form-label::after,
+#ahpr-rdv-div .ahpr-rdv-form-field-wrapper textarea.notempty+.ahpr-rdv-form-label::after {
+    content: '';
+    right: 1px;
+    position: absolute;
+    background: #Fff;
+    height: 2em;
+    top: -.33em;
+    left: 1px;
+    z-index: -1;
+    border-top: 1px solid #ccc;
+}
+
+.rdv-caller{
+	max-width: 530px;
+	text-align: center;
+	margin: 0 auto;
+}
+.rdv-caller .label-title{
+    margin-bottom: 10px;
+    display: block;
+}
+.rdv-caller input[type="text"]{
+    margin-bottom: 15px;
+    padding: 12px;
+}
+.rdv-caller #ahpr_date_rdv{
+	max-width: 260px;
+	text-align: center;
+}
+.rdv-caller input[type="checkbox"].custom-checkbox:not(:checked) + label:before,
+.rdv-caller input[type="checkbox"].custom-checkbox:checked + label:before{
+	content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -10px;
+	border-radius: 100%;
+	width: 16px;
+	height: 16px;
+	border: 2px solid #5f5f5f;
+	background: none;
+	transition:all .3s;
+	-moz-transition:all .3s;
+	-webkit-transition:all .3s;
+}
+.rdv-caller input[type="checkbox"]#ahpr_matin.custom-checkbox:not(:checked) + label:before,
+.rdv-caller input[type="checkbox"]#ahpr_matin.custom-checkbox:checked + label:before{
+    box-shadow: inset 5px 0 #5f5f5f;
+}
+.rdv-caller input[type="checkbox"]#ahpr_midi.custom-checkbox:not(:checked) + label:before,
+.rdv-caller input[type="checkbox"]#ahpr_midi.custom-checkbox:checked + label:before{
+    box-shadow: inset -2px 0 #5f5f5f;
+}
+.rdv-caller input[type="checkbox"]#ahpr_apres-midi.custom-checkbox:not(:checked) + label:before,
+.rdv-caller input[type="checkbox"]#ahpr_apres-midi.custom-checkbox:checked + label:before{
+    box-shadow: inset -7px 0 #5f5f5f;
+}
+.rdv-caller input[type="checkbox"]#ahpr_soir.custom-checkbox:not(:checked) + label:before,
+.rdv-caller input[type="checkbox"]#ahpr_soir.custom-checkbox:checked + label:before{
+    box-shadow: inset -16px 0 #5f5f5f;
+}
+.rdv-caller input[type="checkbox"].custom-checkbox:checked + label::before{
+	border-color: #333;
+}
+.rdv-caller input[type="checkbox"].custom-checkbox:not(:checked) + label:after,
+.rdv-caller input[type="checkbox"].custom-checkbox:checked + label:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    margin-top: -8px;
+    left: 2px;
+    color: #7DCAD2;
+    transition: all .2s;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    line-height: normal;
+
+	width: 16px;
+	height: 16px;
+	border: 3px solid #ccc;
+	display: none;
+}
+.rdv-caller .question-wrapper{
+	margin-bottom: 10px;
+}
+.rdv-caller .button-wrapper{
+	margin-top: 20px;
+}
+
+div#g-recaptcha > div {
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+	#ahpr-rdv-div .appoitment-date-wrapper .radio-wrapper{width: 100%; margin-left: 0;}
+}

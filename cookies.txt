@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.cliniquedentairecouture.com	TRUE	/	FALSE	1999999999	PHPSESSID	9160fad82bf7782ab2ee6914bfd9c29b
+
